@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a bug report to help imporove 2FAuth
+description: Create a bug report to help improve 2FAuth
 projects: Bubka/1
 body:
   - type: input
