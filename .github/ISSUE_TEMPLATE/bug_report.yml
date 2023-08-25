@@ -14,7 +14,7 @@ body:
     id: reproduction_steps
     attributes:
       label: Details & Steps to reproduce
-      description: A clear and concise description of what the bug is and how to reproduce it
+      description: A clear and concise description of what happens and how to reproduce it
     validations:
       required: true
   - type: textarea
