@@ -13,13 +13,8 @@ body:
   - type: textarea
     id: reproduction_steps
     attributes:
-      label: Steps to reproduce
-      description: Describe how to reproduce the issue
-      value: |-
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+      label: Details & Steps to reproduce
+      description: A clear and concise description of what the bug is and how to reproduce it
   - type: textarea
     id: expectation
     attributes:
