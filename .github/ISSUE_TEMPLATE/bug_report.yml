@@ -58,3 +58,8 @@ body:
         OS: 
         Browser:
         Browser version:
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional information
+      description: Any additional information you would like to submit
