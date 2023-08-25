@@ -53,11 +53,7 @@ body:
     attributes:
       label: Client
       description: Details on your client device.
-      value: |-
-        Device: desktop ? mobile ? 
-        OS: 
-        Browser:
-        Browser version:
+      placeholder: Desktop? Mobile? Model, OS name:version, Browser name:version
   - type: textarea
     id: additional_info
     attributes:
