@@ -1,0 +1,66 @@
+name: Bug report
+description: Please fill this report to help fix 2FAuth
+title: A summary of what is not working as expected
+body:
+  - type: input
+    id: 2fauth_version
+    attributes:
+      label: 2FAuth version
+      description: The 2FAuth version on which you the issue occurs
+      placeholder: x.y.z
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe how to reproduce the issue
+      value: |-
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+  - type: textarea
+    id: expectation
+    attributes:
+      label: Expectation
+      description: A  description of what you expected to happen
+  - type: textarea
+    id: error_logs
+    attributes:
+      label: Error & Logs
+      description: >-
+        Error message, stack traces, error/access logs from apache/NGINX, php or
+        your database system.
+      placeholder: 2FAuth logs can be found in [2FAuth_install_directory]/storage/logs/
+      render: shell
+  - type: textarea
+    id: environment
+    attributes:
+      label: Execution environment
+      description: Details about your 2FAuth execution environment
+      placeholder: >-
+        The /about page of your 2FAuth instance displays environment variables,
+        user preferences and admin settings you can easily copy and past here.
+  - type: checkboxes
+    id: context
+    attributes:
+      label: ' '
+      options:
+        - label: I'm using Docker
+          required: false
+  - type: textarea
+    id: client
+    attributes:
+      label: Client
+      description: Details on your client device.
+      value: |-
+        Device: desktop ? mobile ? 
+        OS: 
+        Browser:
+        Browser version:
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
