@@ -44,9 +44,9 @@ body:
   - type: checkboxes
     id: context
     attributes:
-      label: Container
+      label: Containerization
       options:
-        - label: I'm using Docker
+        - label: Docker
           required: false
   - type: textarea
     id: client
