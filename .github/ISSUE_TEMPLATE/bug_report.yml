@@ -15,11 +15,15 @@ body:
     attributes:
       label: Details & Steps to reproduce
       description: A clear and concise description of what the bug is and how to reproduce it
+    validations:
+      required: true
   - type: textarea
     id: expectation
     attributes:
       label: Expectation
       description: A  description of what you expected to happen
+    validations:
+      required: true
   - type: textarea
     id: error_logs
     attributes:
