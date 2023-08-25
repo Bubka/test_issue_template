@@ -1,6 +1,6 @@
 name: Bug report
 description: Please fill this report to help fix 2FAuth
-title: A summary of what is not working as expected
+projects: Bubka/1
 body:
   - type: input
     id: 2fauth_version
