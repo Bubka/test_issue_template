@@ -6,7 +6,7 @@ body:
     id: 2fauth_version
     attributes:
       label: 2FAuth version
-      description: The 2FAuth version on which you the issue occurs
+      description: The 2FAuth version on which the issue occurs
       placeholder: x.y.z
     validations:
       required: true
