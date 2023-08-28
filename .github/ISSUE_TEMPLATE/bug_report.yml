@@ -29,7 +29,7 @@ body:
     attributes:
       label: Error & Logs
       description: >-
-        Error message, stack traces, error/access logs from apache/NGINX, php or
+        Error message, stack traces, error/access logs from the web server, php or
         your database system.
       placeholder: 2FAuth logs can be found in [2FAuth_install_directory]/storage/logs/
       render: shell
