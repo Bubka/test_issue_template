@@ -5,7 +5,7 @@ body:
   - type: input
     id: 2fauth_version
     attributes:
-      label: 2FAuth version
+      label: Version
       description: The 2FAuth version on which the issue occurs
       placeholder: x.y.z
     validations:
