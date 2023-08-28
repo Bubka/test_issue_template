@@ -40,7 +40,7 @@ body:
       description: How do you run 2FAuth, how do you access it and how it is configured
       placeholder: >-
         The /about page of your 2FAuth instance displays environment variables,
-        user preferences and admin settings you can easily copy and past here.
+        user preferences and admin settings you can easily copy and past here as a good starting point
   - type: checkboxes
     id: context
     attributes:
