@@ -49,12 +49,6 @@ body:
         - label: Docker
           required: false
   - type: textarea
-    id: client
-    attributes:
-      label: Client
-      description: Details on your client device.
-      placeholder: Desktop? Mobile? Device model, OS name:version, Browser name:version
-  - type: textarea
     id: additional_info
     attributes:
       label: Additional information
