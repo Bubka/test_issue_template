@@ -39,10 +39,9 @@ body:
       label: Execution environment
       description: How do you run and access 2FAuth and how it is configured
       placeholder: >-
-        Server side: http server, db system, php version,etc...&#10;
-        client side: Desktop? Mobile? Device model, OS name:version, Browser name:version
-        &#10;
-        The /about page of your 2FAuth instance displays environment variables,
+        - Server side: http server, db system, php version,etc...
+        - client side: Desktop? Mobile? Device model, OS name:version, Browser name:version
+        - The /about page of your 2FAuth instance displays environment variables,
         user preferences and admin settings you can easily copy and past here.
   - type: checkboxes
     id: context
