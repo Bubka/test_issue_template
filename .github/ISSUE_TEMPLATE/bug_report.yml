@@ -37,7 +37,7 @@ body:
     id: environment
     attributes:
       label: Execution environment
-      description: Details about your 2FAuth execution environment
+      description: Details about the execution environment of your 2FAuth instance
       placeholder: >-
         The /about page of your 2FAuth instance displays environment variables,
         user preferences and admin settings you can easily copy and past here.
